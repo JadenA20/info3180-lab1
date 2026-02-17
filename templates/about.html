@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
- <meta charset="UTF-8">
- <title>My Website - About</title>
+    <meta charset="UTF-8">
+    <title>My Website - About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
 </head>
+
 <body>
- <h1 style="color:red;">TESTING ABOUT PAGE</h1>
- <p>I'm 21 years old, and a final year student majoring in Computer Science. I hope to pursue a career in Application/Web Development.</p>
+    <div class="container">
+        <img src="{{ url_for('static', filename= 'sunset city view.JPG') }}" alt="Description of image">
+
+        <h1>Jaden Anthony</h1>
+
+        <p>I'm 21 years old, and a final year student majoring in Computer Science at The University of the West Indies. 
+        I particularly enjoy Web Development, and would love to pursue a career in that field.
+        As it relates to my hobbies, I play multiple instruments, and teach students on the weekends.
+        If all goes well, I'll continue through life managing Web Development during the week, and teaching/practicing on the weekends!
+        </p>
+    </div>
 </body>
+
 </html> 

@@ -5,6 +5,28 @@ body {
 }
 
 .container {
-  max-width: 960px;
-  margin: 0 auto;
+  /*max-width: 960px;
+  margin: 0 auto;*/
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color:cornflowerblue;
+}
+
+img {
+  border-radius: 10%;
+  width: 500px;
+}
+
+p {
+  margin-right: 20%;
+  margin-left: 20%;
+  text-align: center;
 }
